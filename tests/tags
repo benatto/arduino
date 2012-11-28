@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DRIVER_AUTHOR	hello1.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	hello1.c	8;"	d	file:
+DRIVER_DESC	hello1.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	hello1.c	9;"	d	file:
+cleanup	hello1.c	/^module_exit(cleanup);$/;"	v
+cleanup	hello1.c	/^static void __exit cleanup(void){$/;"	f	file:
+init	hello1.c	/^module_init(init);$/;"	v
+init	hello1.c	/^static int __init init(void){$/;"	f	file:
+myint	hello1.c	/^static int myint = 420;$/;"	v	file:
+myshort	hello1.c	/^static short int myshort = 1;$/;"	v	file:
+mystring	hello1.c	/^static char *mystring = "blah";$/;"	v	file:
